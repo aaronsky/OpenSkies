@@ -1,8 +1,38 @@
-﻿Build started 11/8/2014 3:49:31 PM.
+﻿Build started 11/12/2014 9:03:33 PM.
      1>Project "E:\Desktop\CastleOGL\CastleOGL\CastleOGL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Model.cpp
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Cone.cpp Cube.cpp Cylinder.cpp Game.cpp GameObject.cpp InputHandler.cpp Light.cpp Main.cpp Material.cpp Mesh.cpp Model.cpp Shader.cpp Skybox.cpp Sphere.cpp Texture.cpp Torus.cpp Transform.cpp Window.cpp
+         Window.cpp
+         Transform.cpp
+         Torus.cpp
+         Texture.cpp
+         Sphere.cpp
+         Skybox.cpp
+         Shader.cpp
+     1>e:\desktop\castleogl\castleogl\shader.cpp(63): warning C4172: returning address of local variable or temporary
          Model.cpp
+         Mesh.cpp
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Material.cpp
+         Main.cpp
+         Light.cpp
+         InputHandler.cpp
+     1>e:\desktop\castleogl\castleogl\inputhandler.cpp(31): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\desktop\castleogl\castleogl\inputhandler.cpp(32): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\desktop\castleogl\castleogl\inputhandler.cpp(36): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\desktop\castleogl\castleogl\inputhandler.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\desktop\castleogl\castleogl\inputhandler.cpp(39): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\desktop\castleogl\castleogl\inputhandler.cpp(40): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\desktop\castleogl\castleogl\inputhandler.cpp(46): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+         GameObject.cpp
+     1>e:\desktop\castleogl\castleogl\gameobject.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Game.cpp
+         Cylinder.cpp
+         Cube.cpp
+         Cone.cpp
+         Camera.cpp
+         Generating Code...
        Link:
          E:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Desktop\CastleOGL\Debug\CastleOGL.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glew32.lib glfw3.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Desktop\CastleOGL\Debug\CastleOGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Desktop\CastleOGL\Debug\CastleOGL.lib" /MACHINE:X86 Debug\Camera.obj
          Debug\Cone.obj
@@ -23,9 +53,14 @@
          Debug\Torus.obj
          Debug\Transform.obj
          Debug\Window.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>SOIL.lib(image_DXT.obj) : warning LNK4204: 'E:\Desktop\CastleOGL\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4204: 'E:\Desktop\CastleOGL\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4204: 'E:\Desktop\CastleOGL\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4204: 'E:\Desktop\CastleOGL\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
          CastleOGL.vcxproj -> E:\Desktop\CastleOGL\Debug\CastleOGL.exe
      1>Done Building Project "E:\Desktop\CastleOGL\CastleOGL\CastleOGL.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.95
+Time Elapsed 00:00:11.78

@@ -10,6 +10,7 @@
 class GameObject
 {
 public:
+	vector<shared_ptr<IComponent>> components;
 	vector<shared_ptr<Mesh>> meshes;
 	Material material;
 	shared_ptr<Transform> transform;
